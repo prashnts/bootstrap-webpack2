@@ -1,8 +1,8 @@
 {
-  "name": "bootstrap-webpack",
-  "description": "bootstrap3 package for webpack",
+  "name": "bootstrap-webpack2",
+  "description": "bootstrap3 package for webpack2",
   "main": "index.js",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "loader": "index.loader.js",
   "keywords": [
     "bootstrap",
@@ -12,11 +12,11 @@
     "name": "Scott Beck (@bline)"
   },
   "bugs": {
-    "url": "https://github.com/gowravshekar/bootstrap-webpack/issues"
+    "url": "https://github.com/prashnts/bootstrap-webpack2/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gowravshekar/bootstrap-webpack.git"
+    "url": "https://github.com/prashnts/bootstrap-webpack2.git"
   },
   "peerDependencies": {
     "bootstrap": ">=3.0.2",
@@ -27,6 +27,6 @@
     "file-loader": ">=0.8.1",
     "imports-loader": ">=0.6.3",
     "exports-loader": ">=0.6.2",
-    "extract-text-webpack-plugin": ">=0.3.8"
+    "extract-text-webpack-plugin": ">=2.0.0-rc.3"
   }
 }
